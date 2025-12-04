@@ -1,0 +1,43 @@
+{
+  "run": {
+    "command": "nx run-many --target=build --projects=remote1,remote2,host --parallel=1 --skip-nx-cache",
+    "startTime": "2025-12-04T21:19:05.377Z",
+    "endTime": "2025-12-04T21:19:24.631Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "remote1:build:production",
+      "target": "build",
+      "projectName": "remote1",
+      "hash": "2749499105336236653",
+      "startTime": "2025-12-04T21:19:05.521Z",
+      "endTime": "2025-12-04T21:19:11.195Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "remote2:build:production",
+      "target": "build",
+      "projectName": "remote2",
+      "hash": "15663626611034668651",
+      "startTime": "2025-12-04T21:19:11.209Z",
+      "endTime": "2025-12-04T21:19:17.039Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "host:build:production",
+      "target": "build",
+      "projectName": "host",
+      "hash": "3517035733228848207",
+      "startTime": "2025-12-04T21:19:17.051Z",
+      "endTime": "2025-12-04T21:19:24.614Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

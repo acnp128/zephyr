@@ -1,0 +1,39 @@
+(node:162065) [DEP0128] DeprecationWarning: Invalid 'main' field in '/home/cristoni/Área de Trabalho/zephyr/my-app/newtest/node_modules/zephyr-rspack-plugin/dist/package.json' of 'dist/index.js'. Please either fix that or report it to the module author
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[1m[103m[30m ZEPHYR [39m[49m[22m  Git repository not found. Zephyr REQUIRES a git repository with remote origin.
+[1m[103m[30m ZEPHYR [39m[49m[22m  Manual configuration is NOT recommended and WILL cause errors in production.
+[1m[103m[30m ZEPHYR [39m[49m[22m  
+[1m[103m[30m ZEPHYR [39m[49m[22m  To properly use Zephyr, you MUST:
+[1m[103m[30m ZEPHYR [39m[49m[22m  1. Initialize git: git init
+[1m[103m[30m ZEPHYR [39m[49m[22m  2. Add remote: git remote add origin git@github.com:ORG/REPO.git
+[1m[103m[30m ZEPHYR [39m[49m[22m  3. Commit your changes: git add . && git commit -m "Initial commit"
+[1m[103m[30m ZEPHYR [39m[49m[22m  
+[1m[103m[30m ZEPHYR [39m[49m[22m  Alternative: Use our CLI for automatic setup: npx create-zephyr-apps
+[1m[103m[30m ZEPHYR [39m[49m[22m  📝 Documentation: https://docs.zephyr-cloud.io
+[1m[106m[30m ZEPHYR [39m[49m[22m  No zephyr:dependencies found in package.json, to give you more control over your dependencies, check out our documentation:
+[1m[106m[30m ZEPHYR [39m[49m[22m  https://docs.zephyr-cloud.io/features/remote-dependencies
+[1m[103m[30m ZEPHYR [39m[49m[22m  Configuration accepted for THIS BUILD ONLY.
+[1m[103m[30m ZEPHYR [39m[49m[22m  This manual configuration will NOT work for production deployments.
+[1m[103m[30m ZEPHYR [39m[49m[22m  Zephyr REQUIRES a proper git repository with remote origin to function correctly.
+[1m[103m[30m ZEPHYR [39m[49m[22m  Please set up git before your next deployment: https://docs.zephyr-cloud.io
+[1m[106m[30m ZEPHYR [39m[49m[22m  Hi [96madonai_cristoni[39m!
+[1m[106m[30m ZEPHYR [39m[49m[22m  [37m-mf-nx-rspack-host.mf-nx-rspack.acristoni[39m[33m#67[39m
+[1m[106m[30m ZEPHYR [39m[49m[22m  
+[1m[106m[30m ZEPHYR [39m[49m[22m  Resolved remotes:
+[1m[106m[30m ZEPHYR [39m[49m[22m    remote1 → https://adonai-cristoni-65-remote1-mf-nx-rspack-acristoni-55df5f46a-ze.zephyrcloud.app/remoteEntry.js
+[1m[106m[30m ZEPHYR [39m[49m[22m    remote2 → https://adonai-cristoni-66-remote2-mf-nx-rspack-acristoni-216dc9d19-ze.zephyrcloud.app/remoteEntry.js
+[36m[ Module Federation Manifest Plugin ][39m Manifest will use absolute path resolution via its host at runtime, reason: publicPath='auto'
+[1m[106m[30m ZEPHYR [39m[49m[22m  Uploaded [32mlocal[39m snapshot in [33m537[39mms
+[1m[106m[30m ZEPHYR [39m[49m[22m  [37m([97m11[37m/[37m11[37m assets uploaded in [97m543[37mms, [97m401.92[37mkb)[39m
+[1m[106m[30m ZEPHYR [39m[49m[22m  Resolved zephyr dependencies: remote1, remote2
+[1m[106m[30m ZEPHYR [39m[49m[22m  Deployed to [96mZephyr[39m's edge in [33m585[39mms.
+[1m[106m[30m ZEPHYR [39m[49m[22m  
+[1m[106m[30m ZEPHYR [39m[49m[22m  [96mhttps://adonai-cristoni-67-mf-nx-rspack-host-mf-nx-rspack-c05ff2078-ze.zephyrcloud.app[39m
+
+chunk (runtime: main) [1m[32m196.2f2bd82cf48775d7.js[39m[22m 1.16 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main) 6 bytes (remote) 6 bytes (share-init)
+chunk (runtime: main) 6 bytes (remote) 6 bytes (share-init)
+chunk (runtime: main) [1m[32m740.d16e37ed07d2209c.js[39m[22m 126 bytes (consume-shared) 58.3 KiB (javascript) [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32m846.d81c2569f51fdb6a.js[39m[22m (id hint: vendors) 535 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32mmain.ad6a9a87b60d1a87.js[39m[22m (main) 84 bytes (consume-shared) 541 KiB (javascript) 12.6 KiB (runtime) 210 bytes (share-init) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+Rspack compiled [1m[32msuccessfully[39m[22m (02a21fc3b2ed4d1c)

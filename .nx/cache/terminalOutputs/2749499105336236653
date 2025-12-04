@@ -1,0 +1,38 @@
+(node:161575) [DEP0128] DeprecationWarning: Invalid 'main' field in '/home/cristoni/Área de Trabalho/zephyr/my-app/newtest/node_modules/zephyr-rspack-plugin/dist/package.json' of 'dist/index.js'. Please either fix that or report it to the module author
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[1m[106m[30m ZEPHYR [39m[49m[22m  No zephyr:dependencies found in package.json, to give you more control over your dependencies, check out our documentation:
+[1m[106m[30m ZEPHYR [39m[49m[22m  https://docs.zephyr-cloud.io/features/remote-dependencies
+[1m[103m[30m ZEPHYR [39m[49m[22m  Git repository not found. Zephyr REQUIRES a git repository with remote origin.
+[1m[103m[30m ZEPHYR [39m[49m[22m  Manual configuration is NOT recommended and WILL cause errors in production.
+[1m[103m[30m ZEPHYR [39m[49m[22m  
+[1m[103m[30m ZEPHYR [39m[49m[22m  To properly use Zephyr, you MUST:
+[1m[103m[30m ZEPHYR [39m[49m[22m  1. Initialize git: git init
+[1m[103m[30m ZEPHYR [39m[49m[22m  2. Add remote: git remote add origin git@github.com:ORG/REPO.git
+[1m[103m[30m ZEPHYR [39m[49m[22m  3. Commit your changes: git add . && git commit -m "Initial commit"
+[1m[103m[30m ZEPHYR [39m[49m[22m  
+[1m[103m[30m ZEPHYR [39m[49m[22m  Alternative: Use our CLI for automatic setup: npx create-zephyr-apps
+[1m[103m[30m ZEPHYR [39m[49m[22m  📝 Documentation: https://docs.zephyr-cloud.io
+[1m[106m[30m ZEPHYR [39m[49m[22m  No zephyr:dependencies found in package.json, to give you more control over your dependencies, check out our documentation:
+[1m[106m[30m ZEPHYR [39m[49m[22m  https://docs.zephyr-cloud.io/features/remote-dependencies
+[1m[103m[30m ZEPHYR [39m[49m[22m  Configuration accepted for THIS BUILD ONLY.
+[1m[103m[30m ZEPHYR [39m[49m[22m  This manual configuration will NOT work for production deployments.
+[1m[103m[30m ZEPHYR [39m[49m[22m  Zephyr REQUIRES a proper git repository with remote origin to function correctly.
+[1m[103m[30m ZEPHYR [39m[49m[22m  Please set up git before your next deployment: https://docs.zephyr-cloud.io
+[36m[ Module Federation Manifest Plugin ][39m Manifest will use absolute path resolution via its host at runtime, reason: publicPath='auto'
+[1m[106m[30m ZEPHYR [39m[49m[22m  Hi [96madonai_cristoni[39m!
+[1m[106m[30m ZEPHYR [39m[49m[22m  [37mremote1.mf-nx-rspack.acristoni[39m[33m#65[39m
+[1m[106m[30m ZEPHYR [39m[49m[22m  
+[1m[106m[30m ZEPHYR [39m[49m[22m  Uploaded [32mlocal[39m snapshot in [33m293[39mms
+[1m[106m[30m ZEPHYR [39m[49m[22m  [37m([97m13[37m/[37m13[37m assets uploaded in [97m747[37mms, [97m376.97[37mkb)[39m
+[1m[106m[30m ZEPHYR [39m[49m[22m  Deployed to [96mZephyr[39m's edge in [33m818[39mms.
+[1m[106m[30m ZEPHYR [39m[49m[22m  
+[1m[106m[30m ZEPHYR [39m[49m[22m  [96mhttps://adonai-cristoni-65-remote1-mf-nx-rspack-acristoni-55df5f46a-ze.zephyrcloud.app[39m
+
+chunk (runtime: remote1) [1m[32m__federation_expose_Module.f9544811ae4b24fa.js[39m[22m (__federation_expose_Module) 42 bytes (consume-shared) 460 bytes (javascript) [1m[32m[rendered][39m[22m
+chunk (runtime: main, remote1) [1m[32m196.a4a2e359f7b2e5f4.js[39m[22m 1.16 KiB [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32m790.6d42e54d8d186f5e.js[39m[22m 84 bytes (consume-shared) 740 bytes (javascript) [1m[32m[rendered][39m[22m
+chunk (runtime: main, remote1) 42 bytes
+chunk (runtime: main, remote1) [1m[32m846.2b3c1e3a115f1804.js[39m[22m (id hint: vendors) 535 KiB [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: defaultVendors)[39m[22m
+chunk (runtime: remote1) [1m[32mremoteEntry.js[39m[22m (remote1) 42 bytes (consume-shared) 42 bytes (expose) 228 KiB (javascript) 10.9 KiB (runtime) 168 bytes (share-init) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: main) [1m[32mmain.cb0f999aa7cbb4b6.js[39m[22m (main) 42 bytes (consume-shared) 228 KiB (javascript) 10.4 KiB (runtime) 168 bytes (share-init) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+Rspack compiled [1m[32msuccessfully[39m[22m (6246f588b4e12973)

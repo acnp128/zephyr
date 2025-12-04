@@ -1,0 +1,26 @@
+Daemon process terminated and closed the connection
+
+Messages from the log:
+Time for 'nx/core/project-json:createNodes' 0.829439003020525
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.218Z - Established a connection. Number of open connections: 2
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.219Z - Established a connection. Number of open connections: 3
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.219Z - Closed a connection. Number of open connections: 2
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.221Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.221Z - Done responding to the client handleGlob
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.221Z - Handled json message GLOB. Handling time: 1. Response time: 0.
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 8.536364000290632
+Time for 'nx/core/package-json:createNodes' 11.768809001892805
+Time for 'total for sendMessageToDaemon()' 5.536878000944853
+Time for 'deserialize daemon response' 0.11731100082397461
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.229Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.229Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.229Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.284Z - [WATCHER]: .gitignore was modified
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.285Z - Closed a connection. Number of open connections: 1
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.285Z - Closed a connection. Number of open connections: 0
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.285Z - [WATCHER]: Stopping the watcher for /home/cristoni/Área de Trabalho/zephyr/my-app/newtest (sources)
+[NX v22.0.2 Daemon Server] - 2025-12-04T21:29:17.285Z - [WATCHER]: Stopping the watcher for /home/cristoni/Área de Trabalho/zephyr/my-app/newtest (outputs)
+
+
+
+More information: /home/cristoni/Área de Trabalho/zephyr/my-app/newtest/.nx/workspace-data/d/daemon.log
